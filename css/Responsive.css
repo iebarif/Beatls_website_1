@@ -1,0 +1,24 @@
+@media (min-width: 1400px) {
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--fontOswald);
+    font-size: 13px;
+    line-height: 1;
+  }
+
+  .welcome_part {
+    background: var(--primaryColor);
+    position: sticky;
+    border: transparent;
+    display: flex;
+  }
+  navbar {
+    display: none;
+  }
+}
